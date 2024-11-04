@@ -43,6 +43,7 @@ Empty lines and indentation are ignored, and lines prefixed with # are treated a
 
 ```
 [Doom II]
+  # Use novert to disable vertical mouse movement
   mount c drives/doom2
   c:
   novert
