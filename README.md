@@ -1,6 +1,8 @@
 # DOS Director
 Welcome to **DOS Director**! This project is designed to simplify your experience with DOS environments, making it easy to launch your favorite DOS programs without the hassle.
 
+<img width="1440" alt="DOS Director screenshot" src="https://github.com/user-attachments/assets/cbe5a21c-e43d-498b-ac96-0e9f9fa9ff99">
+
 ## What is DOS Director?
 **DOS Director** is a menu-driven command runner that allows you to easily configure and launch DOS programs. Originally developed to enhance my own DOSBOX experience, it has evolved into a flexible tool compatible with any DOS setup.
 
