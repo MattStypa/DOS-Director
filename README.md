@@ -39,7 +39,7 @@ start
 ### Basic Setup
 The configuration file defines options by wrapping the option name in square brackets. The commands for that option follow on the next lines.
 
-Empty lines and indentation are ignored, and lines prefixed with # are treated as comments and also ignored.
+Empty lines and indentation are ignored, and lines prefixed with `#` are treated as comments and also ignored.
 
 ```
 [Doom II]
