@@ -1,7 +1,7 @@
-# DOS Director 1.0
+# DOS Director 1.1
 
 > [!NOTE]
-> This documentation is for DOS Director 1.0<br/>
+> This documentation is for DOS Director 1.1<br/>
 > For other versions [click here](https://github.com/MattStypa/DOS-Director/releases)
 
 Welcome to **DOS Director**! This project is designed to simplify your experience with DOS environments, making it easy to launch your favorite DOS programs without the hassle.
@@ -91,6 +91,27 @@ To create nested menus, wrap them in curly brackets.
 ```
 
 Notice the option prefixed with an asterisk `*`. This tells **DOS Director** that this option exits the current menu.
+
+#### Nested Meta Commands
+Each nested menu can have it's own `{before}` and `{after}` tags. All meta tags in the hierarchy will be executed in the top-to-bottm order.
+
+```
+{before}
+  echo Runs first
+
+{after}
+  echo Runs fourth
+
+[Submenu]
+  {before}
+    echo Runs second
+
+  {after}
+    echo Runs fifth
+
+  [Command]
+    echo Runs third
+```
 
 ## Feedback and Support
 For bugs and issues, please [click here](https://github.com/MattStypa/DOS-Director/issues). For questions, ideas, or other discussions, feel free to [click here](https://github.com/MattStypa/DOS-Director/discussions).
