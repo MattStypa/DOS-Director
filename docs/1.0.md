@@ -1,7 +1,7 @@
 # DOS Director 1.0
 
 > [!NOTE]
-> This documentation is for DOS Director 1.0
+> This documentation is for DOS Director 1.0<br/>
 > For other versions [click here](https://github.com/MattStypa/DOS-Director/tree/master/docs)
 
 Welcome to **DOS Director**! This project is designed to simplify your experience with DOS environments, making it easy to launch your favorite DOS programs without the hassle.
